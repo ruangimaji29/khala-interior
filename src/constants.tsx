@@ -9,7 +9,7 @@ import {
   Phone,
   Globe
 } from 'lucide-react';
-import type { ContactInfo, ProductItem, ServiceItem, PortfolioItem } from './types';
+import type { ContactInfo, ServiceItem, PortfolioItem } from './types';
 
 export const CONTACT_DETAILS: ContactInfo = {
   whatsapp: "08111887145",
