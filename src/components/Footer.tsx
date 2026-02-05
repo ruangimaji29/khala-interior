@@ -217,13 +217,13 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     </p>
                     <div className="flex gap-6 mt-4 md:mt-0">
                         <button
-                            onClick={() => onNavigate('home')}
+                            onClick={() => onNavigate('privacy')}
                             className="text-warmGrey hover:text-charcoal text-xs transition-colors"
                         >
                             Privacy Policy
                         </button>
                         <button
-                            onClick={() => onNavigate('home')}
+                            onClick={() => onNavigate('terms')}
                             className="text-warmGrey hover:text-charcoal text-xs transition-colors"
                         >
                             Terms of Service
